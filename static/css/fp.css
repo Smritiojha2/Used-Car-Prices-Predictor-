@@ -1,0 +1,134 @@
+body {
+    align-items: center;
+    background-image: url("https://www.dailyrx.com/wp-content/uploads/2020/03/foreign-car-brands-1.jpg");
+    height:43.6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    background-color: #000000;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 400px;
+}
+
+.title {
+    text-align: center;
+    color: rgb(255, 239, 239);
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.input-container {
+    height: 50px;
+    position: relative;
+    width: 100%;
+}
+
+.ic-title{
+    color: rgb(255, 231, 231);
+}
+
+.ic1 {
+    margin-top: 10px;
+}
+
+.ic2 {
+    margin-top: 30px;
+}
+
+.ic3 {
+    margin-top: 30px;
+}
+
+.ic4 {
+    margin-top: 30px;
+}
+
+.ic5 {
+    margin-top: 30px;
+}
+
+.ic6 {
+    margin-top: 30px;
+}
+
+.input {
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+}
+
+.input:focus~,
+.input:not(:placeholder-shown){
+    transform: translateY(8px);
+}
+
+.placeholder {
+    color: #65657b;
+    font-family: sans-serif;
+    left: 20px;
+    line-height: 14px;
+    pointer-events: none;
+    position: absolute;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 20px;
+}
+
+.input:focus~.placeholder,
+.input:not(:placeholder-shown)~.placeholder {
+    transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+.input:not(:placeholder-shown)~.placeholder {
+    color: #808097;
+}
+
+.submit {
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 26px;
+
+    text-align: center;
+    width: 100%;
+} 
+
+.submit:active {
+    background-color: #06b;
+} 
+
+.reset {
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 8px;
+
+    text-align: center;
+    width: 100%;
+} 
+
+.reset:active {
+    background-color: #06b;
+} 
